@@ -2,7 +2,7 @@ import type { ErrorMessage } from '../../../common/type'
 
 export class LogService {
   error(error: ErrorMessage) {
-    // console.error(error)
+    console.error(error)
   }
 }
 

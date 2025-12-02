@@ -51,6 +51,7 @@ export type UserSetting = {
     obsStudioDirectoryPath?: string
     port: number
     password?: string
+    profile?: string
   }
   lol: {
     lolDirectoryPath?: string

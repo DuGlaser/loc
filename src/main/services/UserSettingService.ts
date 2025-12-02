@@ -4,8 +4,6 @@ import { UserSetting } from '../../common/type'
 import { JSONFileSync } from 'lowdb/node'
 import path from 'node:path'
 
-// const Store: StorePkg = (StorePkg as any).default || StorePkg
-
 export class UserSettingService {
   #store: LowSync<UserSetting>
 
